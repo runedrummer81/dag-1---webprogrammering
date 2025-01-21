@@ -3,11 +3,28 @@ body{
     color: white;
 }
 
-h1{
+h1 {
     font-family: Impact;
+    position: absolute;
     font-size: 20rem;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    line-height: 1;
 }
 
-h2{
+h1:hover {
+    transform: translate(-50%, -50%) scale(1.1); /* Centreret scaling */
+}
+
+h2 {
+    position: absolute;
     font-size: 2rem;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35rem;
+    text-align: center;
 }
