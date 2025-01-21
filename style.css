@@ -12,7 +12,6 @@ h1 {
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease-in-out;
     text-align: center;
-    line-height: 1;
 }
 
 h1:hover {
