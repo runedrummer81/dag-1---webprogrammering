@@ -15,7 +15,7 @@ h1 {
 }
 
 h1:hover {
-    transform: translate(-50%, -50%) scale(1.1); /* Centreret scaling */
+    transform: translate(-50%, -50%) scale(1.1);
 }
 
 h2 {
